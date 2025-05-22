@@ -1,0 +1,40 @@
+#properties:
+# pipelineOwnerEmail: Email address of the pipeline owners separated by comma.
+# toEmailFail : email ids
+#toEmailSuccess: email ids
+#toEmailUnstable: email ids
+#toEmailSUmmary:email
+# resultSubject: subject line for emails
+# projectName:
+#environment: Default environment for the jenkins jobs
+#webdriverRemoteDriver: Default remote webdriver
+
+testTypeOptions:
+  Smoke : "@Priority-1"
+  Mini : "@Priority-1 or @Priority-2 "
+  Full : "@Priority-1 or @Priority-2 "
+
+#Email parameters
+ pipelineOwnerEmail: test@test.com
+ toEmailFail: Test@test.com
+
+#Jenkins config :
+#  Download Jenkins package – Generic Java Package (.war)
+#  Jenkins.war gets downloaded
+#  Run java -jar Jenkins.war -httpPort=9090
+#  Create a job in Jenkins
+#  Create a new item – as free style project
+#  Give the git project url in Source Code Management section
+#  Go to Build section and provide the runner commands. Like goals in eclipse .Put the terminal commands here
+#  Now to go to Build Now button to run the pipeline
+#  Parameterize the Jenkins Jobs
+#  Go to configure and select this project is parametrized
+#  Select Choice parameters
+#  Choice parameter Name = browser, Choices = chrome, edge
+# use mvn clean verify to run serenity jobs
+# pass the testTypeOptions as choice parameters
+#  Name = environment = dev, uat, prod
+#Build parameter : test -Dcucumber.filter.tags=”@”$tags” -Dbrowser=”$browser”
+#  Now the build changes to build with parameters
+#  Go to build triggers
+#  Click on build periodically and write 5 stars “*****” 1 minutes, 2 hours, 3 day, 4 month 5 - weekday
