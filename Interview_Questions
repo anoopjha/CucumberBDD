@@ -1,0 +1,12 @@
+Frameworks :
+What are getters and setters
+what are constructors
+what are the libaries and depedencies 
+what is gradle and why do we use it
+which is better gradle or maven 
+how is report created in testNg or serenity framework
+How to increase coverage in your framework - use examples for running cases with multiple data sets, environments, passing mutliple end points for each API Tests
+Jenkins configuration with framework 
+qtest integration with framework 
+rerun the failed cases
+fetch data from external source
