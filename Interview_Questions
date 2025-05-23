@@ -10,3 +10,4 @@ Jenkins configuration with framework
 qtest integration with framework 
 rerun the failed cases
 fetch data from external source
+Benefits of testNg - dependency on other cases , State dependecies - depends on method 
