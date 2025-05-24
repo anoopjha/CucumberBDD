@@ -11,3 +11,32 @@ qtest integration with framework
 rerun the failed cases
 fetch data from external source
 Benefits of testNg - dependency on other cases , State dependecies - depends on method 
+Cucumber:
+Runner file
+Hooks
+
+Scenario vs Scenario Outline
+
+Data table
+
+Cucumber tags, parallel execution in cucumber
+
+Background
+
+ 
+
+TestNG:
+
+TestNG Annotations (Priority, invocation count)
+
+Explain TestNg.xml config file
+
+TestNG advantages
+
+Soft assert vs hard assert
+
+Data Provider in TestNG
+
+State dependencies (dependsOnMethods, dependsOnGroups)
+
+listeners in TestNG
